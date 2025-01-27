@@ -82,13 +82,13 @@ scraper_app/
 ## GUI
 
 ### Pantalla Principal
-![Pantalla Principal]([assets/INTERFAZ 1.jpg](https://github.com/Jh-Seb/DATA-DIGGER/blob/564798ef44c01389cd91daaa0fe6dc4de8263a1a/assets/INTERFAZ%201.jpg))
+![Pantalla Principal](https://github.com/Jh-Seb/DATA-DIGGER/blob/564798ef44c01389cd91daaa0fe6dc4de8263a1a/assets/INTERFAZ%201.jpg)
 
 ### Wiki Scraper
-![Wiki Scraper]([assets/INTERFAZ 2.jpg](https://github.com/Jh-Seb/DATA-DIGGER/blob/564798ef44c01389cd91daaa0fe6dc4de8263a1a/assets/INTERFAZ%202.jpg))
+![Wiki Scraper]((https://github.com/Jh-Seb/DATA-DIGGER/blob/564798ef44c01389cd91daaa0fe6dc4de8263a1a/assets/INTERFAZ%202.jpg)
 
 ### Real State Scraper
-![Real State Scraper]([assets/INTERFAZ 3.jpg](https://github.com/Jh-Seb/DATA-DIGGER/blob/564798ef44c01389cd91daaa0fe6dc4de8263a1a/assets/INTERFAZ%203.jpg))
+![Real State Scraper]((https://github.com/Jh-Seb/DATA-DIGGER/blob/564798ef44c01389cd91daaa0fe6dc4de8263a1a/assets/INTERFAZ%203.jpg)
 
 ---
 ## DIAGRAMA DE CLASES
