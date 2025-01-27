@@ -48,19 +48,26 @@ Este módulo se enfoca en páginas de bienes raíces y permite:
 
 ## Estructura de la Aplicación
 
-1. **Interfaz Gráfica:**
-   - Diseñada con `customtkinter` para una navegación intuitiva.
-
-2. **Módulos Funcionales:**
-   - **Wiki Scraper:** Extrae texto y enlaces de Wikipedia.
-   - **Real State Scraper:** Procesa publicaciones de bienes raíces y organiza los resultados.
-
-3. **Generación de Archivos:**
-   - PDF para Wiki Scraper.
-   - Excel para Real State Scraper.
-
-4. **Empaquetado:**
-   - La aplicación está empaquetada como un archivo ejecutable (.exe) utilizando PyInstaller, asegurando portabilidad.
+```
+scraper_app/
+│
+├── main.py             
+├── scraper/
+│   ├── __init__.py
+│   ├── scraper.py       
+│   ├── wiki_scraper.py  
+│   └── real_estate_scraper.py 
+│
+├── gui/
+│   ├── __init__.py
+│   └── app_gui.py       
+│
+├── reports/
+│   ├── __init__.py
+│   └── report_generator.py  
+│
+└── assets/              
+```
 
 ---
 
@@ -72,23 +79,16 @@ Este módulo se enfoca en páginas de bienes raíces y permite:
 
 ---
 
-## Capturas de Pantalla
+## GUI
 
 ### Pantalla Principal
-*(Agregar imagen aquí)*
+![Pantalla Principal](assets/INTERFAZ 1.jpg)
 
 ### Wiki Scraper
-*(Agregar imagen aquí)*
+![Wiki Scraper](assets/INTERFAZ 2.jpg)
 
 ### Real State Scraper
-*(Agregar imagen aquí)*
+![Real State Scraper](assets/INTERFAZ 3.jpg)
 
 ---
-
-## Contribuciones
-Si deseas contribuir a este proyecto, puedes realizar un fork del repositorio y enviar un pull request con tus mejoras.
-
----
-
-## Licencia
-Este proyecto está licenciado bajo los términos de la licencia MIT.
+## DIAGRAMA DE CLASES
