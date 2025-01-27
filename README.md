@@ -92,3 +92,48 @@ scraper_app/
 
 ---
 ## DIAGRAMA DE CLASES
+```mermaid
+classDiagram
+    class Scraper {
+        - url: str
+        - data: str
+        + scrape()
+    }
+
+    class WikiScraper {
+        - link: list
+        + extraer_info_relevante()
+        + generar_pdf(contenido)
+        + sugerir_temas()
+    }
+
+    class RealEstateScraper {
+        - dynamic_data: dict
+        + extraer_propiedades()
+        + sectorizar_por_ciudad(ciudad)
+        + sectorizar_por_localidad(localidad)
+        + filtrar_propiedades(nuevo, usado, arriendo)
+    }
+
+    class GUI {
+        - ventana_principal: object
+        - opciones_scraper: dict
+        - widgets_pantalla_principal: list
+        + mostrar_pantalla_principal()
+        + mostrar_opciones_scraper()
+        + manejar_entrada_usuario()
+        + navegar_a_scraper(scraper_type)
+        + aplicar_filtro()
+    }
+
+    class ReportGenerator {
+        + generar_pdf(datos)
+        + generar_excel(datos)
+        + descargar_informe(tipo_informe)
+    }
+
+    Scraper <|-- WikiScraper
+    Scraper <|-- RealEstateScraper
+    GUI --* Scraper
+    ReportGenerator --* Scraper
+```
